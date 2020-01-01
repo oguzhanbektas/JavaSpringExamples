@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="037f819f-3a55-4b97-bac3-f6e009d320b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/bforb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/resources/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-examples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/spring-mongo-rest-api.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-elasticsearch/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="257">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-elasticsearch/src/main/resources/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -64,6 +67,7 @@
         <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/oguzhanbektas/controller/UserController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-elasticsearch/src/main/resources/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -79,6 +83,9 @@
     <option name="y" value="21" />
     <option name="width" value="784" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -102,6 +109,47 @@
               <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
               <item name="spring-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mongo-rest-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mongo-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mongo-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSpringExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mongo-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577019619834</updated>
       <workItem from="1577019630463" duration="6221000" />
-      <workItem from="1577884716479" duration="457000" />
+      <workItem from="1577884716479" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/oguzhanbektas/JavaSpringExamples&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Elasticsearch is deleted.">
       <created>1577883399768</created>
@@ -184,17 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1577883399769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/oguzhanbektas/JavaSpringExamples&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Elasticsearch is deleted.&#10;&#10;Elasticsearch module is added.">
+      <created>1577885285296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577885285296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7951000" />
+    <option name="totallyTimeSpent" value="8831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -204,13 +258,13 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -275,16 +329,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="Merge branch 'master' of https://github.com/oguzhanbektas/JavaSpringExamples&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Elasticsearch is deleted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/oguzhanbektas/JavaSpringExamples&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Elasticsearch is deleted." />
+    <MESSAGE value="Merge branch 'master' of https://github.com/oguzhanbektas/JavaSpringExamples&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Elasticsearch is deleted.&#10;&#10;Elasticsearch module is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/oguzhanbektas/JavaSpringExamples&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Elasticsearch is deleted.&#10;&#10;Elasticsearch module is added." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -370,8 +418,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-elasticsearch/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="257">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-elasticsearch/src/main/resources/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
