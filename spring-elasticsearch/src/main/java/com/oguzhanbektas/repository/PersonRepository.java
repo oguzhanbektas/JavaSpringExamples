@@ -10,6 +10,8 @@ import java.util.List;
 @Repository
 public interface PersonRepository extends ElasticsearchRepository<Person, String> {
 
-    @Query("{\"bool\":{\"must\":[{\"match\":{\"name\":\"?0\"}}]}}")
+    @Query("{\"bool\": {\"must\": [{\"match\": {\"name\": \"?0\"}}]}}")
     List<Person> getByCustomQuery(String search);
+
+    List<Person> findByNameLikeOrSurnameLike(String name,String surname);
 }
