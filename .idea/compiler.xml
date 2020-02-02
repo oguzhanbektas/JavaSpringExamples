@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearchh" />
         <module name="spring-mongo-rest-api" />
-        <module name="spring-elasticsearch" />
         <module name="spring-hello-world" />
+        <module name="spring-elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
