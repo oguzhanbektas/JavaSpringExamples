@@ -8,6 +8,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 @EnableElasticsearchRepositories
 public class ApplicationElasticSearch {
     public static void main(String[] args) {
+        //Deneme
         SpringApplication.run(ApplicationElasticSearch.class, args);
     }
 }
